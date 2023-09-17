@@ -1,0 +1,14 @@
+case_10000:
+  - # 要应用的策略模板名字
+    strategyNames: "strategy_add"
+
+    # 应用策略的数据资源
+    sourceName : "testMysql2"
+
+    # 连接代理资源的信息
+    user: "root"
+    password: "123456"
+    database: "test_rjy"
+    strsql: "ALTER DATABASE testmysql CHARACTER SET utf8mb4"
+    # 资源的代理端口
+    port: 10100

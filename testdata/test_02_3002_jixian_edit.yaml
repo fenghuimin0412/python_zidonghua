@@ -1,0 +1,5 @@
+case_10000:
+  - # 要修改的基线信息
+    sourceName : "testMysql2"
+    jixianName : "jixian_001"
+    NewjixianName: "jixian_002"

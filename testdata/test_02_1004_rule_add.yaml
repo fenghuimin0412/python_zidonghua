@@ -1,0 +1,10 @@
+case_10000:
+  -
+    # 要添加到那个规则组
+    rulesName: "testcaserule"
+    # 要添加规则的名字
+    ruleName: "rule1"
+    # 要添加规则类型
+    name: "table"
+    #要添加的vlue
+    vlue: "test"

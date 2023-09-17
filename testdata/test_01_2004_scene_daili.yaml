@@ -1,0 +1,28 @@
+#添加的代理资源信息
+case_10000:
+  - databaseName: "testMysql1"
+    databaseType: 3
+    host: "192.168.1.51"
+    port: "13306"
+    dbName: "test_rjy"
+    userName: "root"
+    password: "123456"
+    otherInfo: "{\"serverType\":0,\"assistedLogin\":false}"
+#代理连接信息
+    dhost: 192.168.1.80
+#    database: test_rjy
+    dport: 12000
+    setport: 11000
+
+#  - databaseName: "testMysql代理2"
+#    databaseType: 3
+#    host: "192.168.1.97"
+#    port: "3306"
+#    dbName: "test_rjy"
+#    userName: "root"
+#    password: "123456"
+#    otherInfo: "{\"serverType\":0,\"assistedLogin\":false}"
+##代理连接信息
+#    dhost: 192.168.1.101
+##    database: test_rjy
+#    dport: 12001

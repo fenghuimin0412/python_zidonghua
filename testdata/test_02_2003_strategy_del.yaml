@@ -1,0 +1,3 @@
+case_10000:
+  - # 要删除的策略组名字
+    strategyNames: "strategy_edit"

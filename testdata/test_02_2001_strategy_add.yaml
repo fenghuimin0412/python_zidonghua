@@ -1,0 +1,4 @@
+case_10000:
+  - # 要添加的策略模板信息
+    strategyNames: "strategy_add"
+

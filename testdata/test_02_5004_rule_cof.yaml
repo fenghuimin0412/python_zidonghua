@@ -1,0 +1,13 @@
+case_10000:
+  - # 要应用的基线信息
+    jixianName: "jixian_001"
+    # 应用策略的数据资源
+    sourceName : "testMysql2"
+
+    # 连接代理资源的信息
+    user: "root"
+    password: "123456"
+    database: "test_rjy"
+    strsql: "select id from test_rjy.test"
+    # 资源的代理端口
+    port: 10100

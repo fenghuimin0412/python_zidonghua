@@ -1,0 +1,2 @@
+case_10000:
+  - rulesNames: "testcaserule_new" # 规则组名称

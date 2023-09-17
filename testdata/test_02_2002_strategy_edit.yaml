@@ -1,0 +1,5 @@
+case_10000:
+  - # 要编辑的策略模板名字
+    strategyNames: "strategy_add"
+    # 要修改为的策略模板名字
+    newStrategyNames: "strategy_edit"

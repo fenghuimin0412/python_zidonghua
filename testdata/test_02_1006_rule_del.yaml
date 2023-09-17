@@ -1,0 +1,9 @@
+case_10000:
+  - # 规则组
+    rulesName: "testcaserule"
+    # 要删除规则的名字
+    ruleName: "rule1"
+    # 规则类型
+    name: "table"
+    #vlue
+    vlue: "test"

@@ -1,0 +1,40 @@
+case_10000:
+  - databaseName: testMysql2
+    databaseType: 3
+    host: 192.168.1.51
+    port: 13306
+    dbName: test_rjy
+    userName: root
+    password: 123456
+#    otherInfo: /{"serverType":0,"assistedLogin":false/}
+    otherInfo: "{\"serverType\":0,\"assistedLogin\":false}"
+
+
+#  - databaseName: testOracle
+#    databaseType: 0
+#    host: 192.168.1.97
+#    port: 1521
+#    dbName:
+#    userName: system
+#    password: oracle
+#    otherInfo:
+#
+##异常数据添加
+#case_10002:
+#  - databaseName: testMysql27
+#    databaseType: 3
+#    host: 192.168.1.97
+#    port: 3306
+#    dbName: mysql
+#    userName: root
+#    password: 123456
+#    otherInfo:
+#
+#  - databaseName: testOracle
+#    databaseType: 0
+#    host: 192.168.1.97
+#    port: 1521
+#    dbName:
+#    userName: system
+#    password: oracle
+#    otherInfo:

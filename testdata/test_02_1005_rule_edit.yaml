@@ -1,0 +1,11 @@
+case_10000:
+  -
+    #添加要修改的规则的信息
+    name : "table"
+    vlue : "test"
+    # 要编辑的规则组名
+    rulesName: "testcaserule"
+    # 要修改的规则名
+    ruleName: "rule1"
+    # 要改成的规则名
+    newRuleName: "rule2"

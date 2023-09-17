@@ -1,0 +1,6 @@
+case_10000:
+  -
+    # 要编辑的规则组名称
+    rulesNames: "testcaserule_set"
+    # 修改后的规则组名成
+    NewRulesNames: "testcaserule_new"

@@ -1,0 +1,12 @@
+case_10000:
+  -
+    # 应用策略的数据资源
+    sourceName : "testMysql2"
+
+    # 连接代理资源的信息
+    user: "root"
+    password: "123456"
+    database: "test_rjy"
+    strsql: "SELECT table_name FROM INFORMATION_SCHEMA.TABLES"
+    # 资源的代理端口
+    port: 10100

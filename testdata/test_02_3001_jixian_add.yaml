@@ -1,0 +1,4 @@
+case_10000:
+  - # 要添加的基线信息
+    sourceName : "testMysql2"
+    jixianName: "jixian_001"
