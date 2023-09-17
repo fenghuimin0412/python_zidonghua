@@ -23,18 +23,18 @@ from util.get_path import CASE_DIR
 #     os.system(r"allure serve report -p 15566")
 
 # 执行某一个标签的测试用例
-if __name__ == '__main__':
+# if __name__ == '__main__':
     # 标签名为smoke_rules，且不需要加引号
-    os.system(r"/usr/local/python3.10/python/bin/pytest  --alluredir=./report --clean-alluredir --json-report --json-report-file=json_report/report.json")
+    # os.system(r"/usr/local/python3.10/python/bin/pytest  --alluredir=./report --clean-alluredir --json-report --json-report-file=json_report/report.json")
     # os.system(r"/usr/local/python3.10/python/bin/pytest -m smoke_login --alluredir=./report --clean-alluredir --json-report --json-report-file=json_report/report.json")
     # --clean-alluredir 为每次清理报告记录。如需要保留历史记录可删除掉，如下
     # os.system(r"pytest -m smoke_jixian --alluredir=./report --clean-alluredir --json-report --json-report-file=json_report/report.json")
     # os.system(r"allure serve report -p 15566")
 
 # # 执行某一个测试用例
-# if __name__ == '__main__':
+if __name__ == '__main__':
 #     # 标签名为smoke_rules，且不需要加引号
-#     os.system(r"pytest ./testcase/test_01_1001_login.py --alluredir=./report --clean-alluredir")
+     os.system(r"pytest ./testcase/test_01_1001_login.py --alluredir=./report --clean-alluredir")
 #     # --clean-alluredir 为每次清理报告记录。如需要保留历史记录可删除掉，如下
 #     # os.system(r"pytest -m smoke_rules --alluredir=./report")
 #     os.system(r"allure serve report -p 15566")
